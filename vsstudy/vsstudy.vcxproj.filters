@@ -26,5 +26,8 @@
     <ClInclude Include="AppCore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

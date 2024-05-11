@@ -2,9 +2,15 @@
 #include <string>
 #include <memory>
 #include <iostream>
+
+/*
+AppCore: The core of app template system.
+IApp: Abstract class for app to be implemented
+*/
+
 namespace AppCore
 {
-	class IApp : public std::enable_shared_from_this<IApp>
+	class IApp
 	{
 	protected:
 		const std::string mName;
@@ -15,5 +21,5 @@ namespace AppCore
 		std::string GetDesc();
 		virtual void Run(int iter) = 0;
 	};
-	void PrintMenu();
+	void PrintMenu(); // Print all possible apps as menu
 }

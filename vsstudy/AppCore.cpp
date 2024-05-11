@@ -32,6 +32,7 @@ namespace AppCore {
 		}
 	}
 
+/* IApp */
 	IApp::IApp(std::string _name, std::string _desc)
 		: mName(_name), mDesc(_desc)
 	{
