@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <memory>
+#include <iostream>
 namespace AppCore
 {
 	class IApp : public std::enable_shared_from_this<IApp>
