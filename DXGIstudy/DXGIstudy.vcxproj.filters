@@ -11,17 +11,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="allheaders.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PreprocessorTest.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="VaListTest.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

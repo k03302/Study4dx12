@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <utility>
 #include <iostream>
-#include "AppCore.h"
-#include "Example.h"
-
-Example e("ExampleApp", "This is just an example");
+#include "allheaders.h"
 
 int main()
 {
-	
+	Example example("ExampleApp", "This is just an example");
+	PreprocessorTest preprocessorTest("Preprocessor Test",
+		"Visual studio preprocessor definitions");
+	VaListTest vaListTest("variable argument test", "variable argument test");
+
 	AppCore::Run();
 }

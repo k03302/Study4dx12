@@ -61,7 +61,11 @@ namespace AppCore {
 			if (num < mAppList.size())
 			{
 				IApp* app = mAppList[num];
-				if (ExecuteApp(app) == false)
+				if (ExecuteApp(app))
+				{
+					std::cout << std::endl << "Ran successfully." << std::endl;
+				}
+				else
 				{
 					std::cout << "Execution of the app" << t0 << " failed" << std::endl;
 				}
@@ -75,7 +79,7 @@ namespace AppCore {
 		{
 			std::cout << "Invalid Input" << std::endl;
 		}
-		std::cout << "End of run. Press enter to continue..." << std::endl;
+		std::cout << "Press enter to continue..." << std::endl;
 		std::cin.ignore(2); // same as getchar();
 		system("cls"); // clear console (works in Window only)
 	}
