@@ -19,7 +19,8 @@ namespace AppCore
 		IApp(std::string _name, std::string _mDesc);
 		std::string GetName();
 		std::string GetDesc();
-		virtual void Run(int iter) = 0;
+		virtual void Run() = 0;
 	};
 	void PrintMenu(); // Print all possible apps as menu
+	void Run(); // Start app running prompt
 }

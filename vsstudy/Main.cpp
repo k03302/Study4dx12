@@ -8,5 +8,6 @@ Example e("ExampleApp", "This is just an example");
 
 int main()
 {
-	AppCore::PrintMenu();
+	
+	AppCore::Run();
 }

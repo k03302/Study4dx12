@@ -4,7 +4,7 @@ class Example : public AppCore::IApp
 {
 public:
 	using AppCore::IApp::IApp;
-	virtual void Run(int iter) override
+	virtual void Run() override
 	{
 
 	}
